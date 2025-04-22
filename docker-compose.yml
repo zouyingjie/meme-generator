@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  meme-generator:
+    image: zouyingjie/meme-generator:v1
+    ports:
+      - "8080:80"
+    restart: unless-stopped
